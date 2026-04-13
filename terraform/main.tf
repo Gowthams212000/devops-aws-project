@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "jenkins" {
-  ami           = "ami-0d758c1134823146a"
-  instance_type = "t2.micro"
+  ami           = "ami-0ea87431b78a82070"
+  instance_type = "t3.micro"
 }
